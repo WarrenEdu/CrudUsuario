@@ -1,0 +1,39 @@
+.user {
+    background-color: gray;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.user__name {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.user__list {
+    width: 280px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.user__item span:first-child {
+    color: rgb(241, 228, 228);
+}
+
+.user__buttoms {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.user__btn {
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.568);
+}
