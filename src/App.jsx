@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css'
 import useCrud from './hooks/useCrud'
 import UserForm from './components/UserForm';
-// import UserCard from './components/UserCard';
+import UserCard from './components/UserCard';
 
 function App() {
 
@@ -55,4 +55,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import './styles/UserCard.css';
 
 const UserCard = ({user, deleteUser, setUpDateUser, setIsOpen}) => {

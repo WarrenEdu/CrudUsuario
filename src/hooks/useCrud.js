@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import axios from "axios";
 
 const useCrud = (base) => {
@@ -48,4 +48,4 @@ const patchApi = (path, data, id) => {
 return [apiData, getApi, postApi, deleteApi, patchApi]
 }
 
-export default useCrud
+export default useCrud;
