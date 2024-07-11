@@ -75,13 +75,13 @@ function App() {
           <div className='app'>
             <header className='app__header'>
               <div className='header__content'>
-                <h1 className='app__title'>DASHBOARD | YOU HAVE <span className='title__span'>{users?.length || 0}</span> USERS</h1>
-                <p className='title__txt'>Welcome! Admin</p>
-                <button className='btn__dltAll' onClick={handleDeleteAll}>Delete all</button>
+                <h1 className='app__title'>DASHBOARD | Tienes <span className='title__span'>{users?.length || 0}</span> Usuarios</h1>
+                <p className='title__txt'>Bienvenido Admin</p>
+                <button className='btn__dltAll' onClick={handleDeleteAll}>Borrar todo</button>
               </div>
               <div className='header__btn'>
                 <button onClick={handleRan}><ion-icon name="dice-outline"></ion-icon>  Test</button>
-                <button onClick={handleOpen}><ion-icon name="add-outline"></ion-icon> Create User</button>
+                <button onClick={handleOpen}><ion-icon name="add-outline"></ion-icon> Crear Usuario</button>
               </div>
             </header>
             <UserForm
@@ -102,9 +102,7 @@ function App() {
                 />)
               }
             </div>
-            <a href="https://portafolio-de-vicent.netlify.app/" target='blank'>
-              <img className='logo' src='../assets/logo_dark.png' alt='logo' />
-            </a>
+            
             <Toaster />
           </div>
         )
